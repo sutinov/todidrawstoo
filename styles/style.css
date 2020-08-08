@@ -1,0 +1,29 @@
+.text-white {
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section {
+background: rgb(215, 237, 247);
+background: radial-gradient(circle, rgba(215, 237, 247, 1) 0%, rgba(133, 202, 228, 1) 35%, rgba(0, 212, 255, 1) 100%);
+padding-top: 4%;
+padding-bottom: 4%;
+}
+
+.footer-title {
+    text-align: center;
+    padding: 4% 7%;
+}
+
+.icons {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.todi {
+    float: left;
+    position: relative;
+    display: block;
+    padding-right: 20px;
+}
