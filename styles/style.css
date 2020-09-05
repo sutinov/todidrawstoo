@@ -12,9 +12,11 @@ body {
     width: 20%;
 
 }
-
-#about {
+.about-sec {
     background-color: #f6f6f6;
+}
+#about {
+    
     padding: 5% 10%;
 
 
@@ -50,4 +52,25 @@ body {
 }
 
 .follow-me {
-    padding-top: 30px;}
+    padding-top: 30px;
+}
+
+    /* Mobile Options */
+
+
+@media screen and (max-width: 992px) {
+   .About-sec {
+       width: 100%;
+    }
+
+    #images {
+        width: 100%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+
+
+}
