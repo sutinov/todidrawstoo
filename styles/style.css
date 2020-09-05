@@ -1,33 +1,53 @@
-.text-white {
-    display: block;
-    padding-bottom: 10px;
+body {
     text-align: center;
+    font-family: 'Montserrat',
+    sans-serif;
 }
 
-section {
-background: rgb(215, 237, 247);
-background: radial-gradient(circle, rgba(215, 237, 247, 1) 0%, rgba(133, 202, 228, 1) 35%, rgba(0, 212, 255, 1) 100%);
-padding-top: 4%;
-padding-bottom: 4%;
+/* About Section */
+
+.todi {
+    margin: 3% auto;
+    position: relative;
+    width: 20%;
+
 }
 
-.footer-title {
-    text-align: center;
-    padding: 4% 7%;
+#about {
+    background-color: #f6f6f6;
+    padding: 5% 10%;
+
+
 }
 
-.icons {
-    text-align: center;
+/* Art Section */
+.title {
+    margin: 5% auto;
+}
+
+.img-thumbnail {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.myArtwork {
+    background-color: #f1f3f8;
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.todi {
-    float: left;
-    position: relative;
-    display: block;
-    padding-right: 20px;
+/* Footer Section */
+#contact {
+    background-color: #f6f6f6;
+    margin: 5% auto;
 }
 
-.gallery {
-    padding: 3% 5%;
+.fab {
+    margin: 5% 15% 10%;
 }
+
+.follow-me {
+    padding-top: 30px;}
