@@ -58,17 +58,20 @@ body {
     /* Mobile Options */
 
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
    .About-sec {
        width: 100%;
+     background-color: #f6f6f6;
     }
 
     #images {
         width: 100%;
+        background-color: #f1f3f8;
     }
 
     #contact {
         width: 100%;
+        background-color: #f6f6f6;
     }
 
 
